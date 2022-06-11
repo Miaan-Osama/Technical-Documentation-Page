@@ -1,0 +1,264 @@
+<html lang="en">
+
+<head>
+  <title>C# Documentation | Technical Documentation Page</title>
+  <meta charset="utf-8">
+  <link rel ="stylesheet" href="style 4.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Navigation Menu</header>
+    <ul>
+      <a class="nav-link" href="#Introduction" rel="internal">
+        <li>Introduction</li>
+      </a>
+      <a class="nav-link" href="#Advantages" rel="internal">
+        <li>Advantages</li>
+      </a>
+      <a class="nav-link" href="#C_Sharp_vs_C++" rel="internal">
+        <li>C Sharp vs C++</li>
+      </a>
+      <a class="nav-link" href="#Hello_World" rel="internal">
+        <li>Hello World</li>
+      </a>
+
+      <a class="nav-link" href="#Basic_Concept" rel="internal">
+        <li>Basic Concept</li>
+      </a>
+
+      <a class="nav-link" href="#Code_Examples" rel="internal">
+        <li>Code Examples</li>
+      </a>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>
+          C# (pronounced "See Sharp") is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in .NET. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers. This tour provides an overview of the major components of the language in C# 8 and earlier. If you want to explore the language through interactive examples, try the introduction to C# tutorials.
+        </p>
+        <p>
+          C# is an object-oriented, component-oriented programming language. C# provides language constructs to directly support these concepts, making C# a natural language in which to create and use software components. Since its origin, C# has added features to support new workloads and emerging software design practices. At its core, C# is an object-oriented language. You define types and their behavior.
+        </p>
+        <p> C# programs run on .NET, a virtual execution system called the common language runtime (CLR) and a set of class libraries. The CLR is the implementation by Microsoft of the common language infrastructure (CLI), an international standard. The CLI is the basis for creating execution and development environments in which languages and libraries work together seamlessly.
+        </p>
+        <p>
+          Source code written in C# is compiled into an intermediate language (IL) that conforms to the CLI specification. The IL code and resources, such as bitmaps and strings, are stored in an assembly, typically with an extension of .dll. An assembly contains a manifest that provides information about the assembly's types, version, and culture.</p>
+
+      </article>
+      </secion>
+      <section class="main-section" id="Advantages">
+        <header>Advantages</header>
+        <aticle>
+          <p>There are many advantages of C#. But following are some important Advantages of C# Programming Language:</p>
+          <p>
+            <ul style="list-style-type:disc">
+              <li><b>Web development:</b> As a part of the .NET platform, C# is a natural fit for building dynamic websites and applications. Its object-oriented nature makes it perfect for developing websites that boast high efficiency and are easily scalable.</li>
+              <li>
+<b>Windows apps:</b> Since C# was developed by Microsoft, it’s only natural that it’s widely used to build Windows desktop applications. In fact, this might be the strongest use case for this language—creating applications tailored specifically to the architecture of Microsoft’s OS.
+                </li>
+                <li>
+                  <b>Game development:</b> C# has been widely acknowledged as one of the best programming languages for gaming, especially Unity games. C# integrates with the Unity engine to provide the best environment for mobile game development—and you can even use it to develop console games with cross-platform technologies like Xamarin.
+                  </li>
+                  <li>
+                    <b>Faster development time:</b> C# has several features that allow developers to code faster than with other languages. Some of those features include a statically typed and easy-to-read language, a syntax that feels like an expanded version of Java, and a huge library filled with high-level functionality.
+                    </li>
+                    <li>
+                      <b>High scalability:</b> The static coding nature of C# turns all its programs into reliable products that can be easily tweaked and changed. That means that engineers can quickly make adjustments and build on top of any C# program to expand its functionality and support more users.
+                      </li>
+                      <li>
+                        <b>Object-oriented:</b> C# has embraced object-oriented programming in such a way that it might be the language that better leverages it. In fact, being object-oriented allows C# to be highly efficient and extremely flexible, all of which makes development easier and less resource-intensive.
+                        </li>
+                        <li>
+                          <b>Gentle learning curve:</b> As a high-level language, C# is very easy to learn and understand. And that’s without considering the many built-in features that are very simple to use. What’s more, any engineer who already knows C++ or Java will feel right at home when first using C#, as these languages share many of the same features and overall approach to programming.
+                          </li>
+                          <li>
+                            <b>Big community:</b> C# is one of the most widely used languages in the world, which means that there are many C# developers ready to lend you a hand with it. That’s not all. Being a Microsoft product, C# has the support of the tech giant, which translates into expert help, additional resources, and frequent updates.
+                            </li>
+              </ul>
+          </p>
+          </article>
+        </secion>
+        <section class="main-section" id="C_Sharp_vs_C++">
+          <header>C Sharp vs C++</header>
+          <article>
+            <p>There are many differences between C# and C++ languages. But the main differences are following:
+              </p>
+              <h4>Syntax Difference</h4>
+              <p>There is no major difference in syntax of C# and C++ languages only the some keywords are different. Basic syntax of both languages are following:
+                </p>
+                  <p>
+                    <code>
+                      <pre>
+// C# Basic Code Syntax
+
+// import namspaces
+using System;
+
+// class
+class Demo {
+
+  // Main Method
+  public static void Main(String[] args) {
+
+    // body (C# Statements)
+
+  }
+
+}
+                        </pre>
+                      </code>
+                    </p>
+
+                    <p>
+                    <code>
+                      <pre>
+// C++ Basic Code Syntax
+
+// import liberary (preprocessor directive)
+#include<stdio.h>
+
+// class
+class{
+
+  // class members
+
+};
+
+// main function
+void main() {
+  
+  // body (C++ code statements)
+
+}
+
+                        </pre>
+                      </code>
+                    </p>
+            </article>
+          </secion>
+          <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <article>
+              <p>
+                The "Hello, World" program is traditionally used to introduce a programming language. Here it is in C#:
+              </p>
+              <pre>
+              <code>
+using System;
+
+class Hello
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello C#");
+    }
+}
+              </code>
+              </pre>
+              <p>
+                The "Hello, World" program starts with a using directive that references the System namespace. Namespaces provide a hierarchical means of organizing C# programs and libraries. Namespaces contain types and other namespaces—for example, the System namespace contains a number of types, such as the Console class referenced in the program, and a number of other namespaces, such as IO and Collections. A using directive that references a given namespace enables unqualified use of the types that are members of that namespace. Because of the using directive, the program can use Console.WriteLine as shorthand for System.Console.WriteLine.</p>
+              <p>
+                The Hello class declared by the "Hello, World" program has a single member, the method named Main. The Main method is declared with the static modifier. While instance methods can reference a particular enclosing object instance using the keyword this, static methods operate without reference to a particular object. By convention, a static method named Main serves as the entry point of a C# program.
+              </p>
+              <p>
+                The output of the program is produced by the WriteLine method of the Console class in the System namespace. This class is provided by the standard class libraries, which, by default, are automatically referenced by the compiler.
+              </p>
+            </article>
+            </secion>
+            <section class="main-section" id="Basic_Concept">
+              <header>Basic Concept</header>
+              <article><p>
+                The key organizational concepts in C# are programs, namespaces, types, members, and assemblies. Programs declare types, which contain members and can be organized into namespaces. Classes, structs, and interfaces are examples of types. Fields, methods, properties, and events are examples of members. When C# programs are compiled, they're physically packaged into assemblies. Assemblies typically have the file extension .exe or .dll, depending on whether they implement applications or libraries, respectively.</p>
+<p>
+As a small example, consider an assembly that contains the following code:</p>
+<p>
+  <pre>
+    <code>
+namespace Acme.Collections;
+
+public class Stack<T>
+{
+    Entry _top;
+
+    public void Push(T data)
+    {
+        _top = new Entry(_top, data);
+    }
+
+    public T Pop()
+    {
+        if (_top == null)
+        {
+            throw new InvalidOperationException();
+        }
+        T result = _top.Data;
+        _top = _top.Next;
+
+        return result;
+    }
+
+    class Entry
+    {
+        public Entry Next { get; set; }
+        public T Data { get; set; }
+
+        public Entry(Entry next, T data)
+        {
+            Next = next;
+            Data = data;
+        }
+    }
+}
+      </code>
+    </pre>
+</p>
+<p>
+  The fully qualified name of this class is Acme.Collections.Stack. The class contains several members: a field named _top, two methods named Push and Pop, and a nested class named Entry. The Entry class further contains three members: a property named Next, a property named Data, and a constructor. The Stack is a generic class. It has one type parameter, T that is replaced with a concrete type when it's used.
+  </p>
+<p>
+  A stack is a "first in - last out" (FILO) collection. New elements are added to the top of the stack. When an element is removed, it's removed from the top of the stack. The previous example declares the Stack type that defines the storage and behavior for a stack. You can declare a variable that refers to an instance of the Stack type to use that functionality.
+  </p>
+  <p>
+    Assemblies contain executable code in the form of Intermediate Language (IL) instructions, and symbolic information in the form of metadata. Before it's executed, the Just-In-Time (JIT) compiler of .NET Common Language Runtime converts the IL code in an assembly to processor-specific code.
+    </p>
+    <p>
+      Because an assembly is a self-describing unit of functionality containing both code and metadata, there's no need for #include directives and header files in C#. The public types and members contained in a particular assembly are made available in a C# program simply by referencing that assembly when compiling the program. For example, this program uses the Acme.Collections.Stack class from the acme.dll assembly:
+      </p>
+      <p>
+        <pre>
+          <code>
+class Example
+{
+    public static void Main()
+    {
+        var s = new Acme.Collections.Stack<int>();
+        s.Push(1); // stack contains 1
+        s.Push(10); // stack contains 1, 10
+        s.Push(100); // stack contains 1, 10, 100
+        Console.WriteLine(s.Pop()); // stack contains 1, 10
+        Console.WriteLine(s.Pop()); // stack contains 1
+        Console.WriteLine(s.Pop()); // stack is empty
+    }
+}
+            </code>
+          </pre>
+        </p>
+        <p>
+          To compile this program, you would need to reference the assembly containing the stack class defined in the earlier example.</p>
+          <p>C# programs can be stored in several source files. When a C# program is compiled, all of the source files are processed together, and the source files can freely reference each other. Conceptually, it's as if all the source files were concatenated into one large file before being processed. Forward declarations are never needed in C# because, with few exceptions, declaration order is insignificant. C# doesn't limit a source file to declaring only one public type nor does it require the name of the source file to match a type declared in the source file.</p>
+              </article>
+              </secion>
+              <section class="main-section" id="Code_Examples">
+        <header>Code Examples</header>
+        <article>
+
+          </article>
+        </secion>
+  </main>
+</body>
+
+</html>

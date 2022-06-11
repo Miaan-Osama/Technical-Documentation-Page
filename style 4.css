@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 311px;
+  margin-bottom: 109px;
+  padding: 23px;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: auto;
+  margin-top: 37px;
+}
+
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 323px;
+  height: 100%;
+  border: 1px solid white;
+  overflow-y: scroll;
+}
+
+#navbar header{
+  font-size: 40px;
+  text-align: center;
+}
+  
+#navbar li {
+  color: black;
+  border: 1px solid;
+  padding: 7px;
+  list-style: none;
+  position: relative;
+  right: 17px;
+}
+
+#navbar a{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+header {
+  font-size: 30px;
+}
